@@ -1,10 +1,15 @@
 <h1>
   Movie #<%= @the_movie.id %> details
 </h1>
+<div>
+  <a href="/movies">
+    Go back
+  </a>
+</div>
 
-<a href="/movies">
-  Go back
-</a>
+<div>
+  <a href="/delete_movie/<%= @the_movie.id %>">Delete movie</a>
+</div>
 
 <hr>
 
